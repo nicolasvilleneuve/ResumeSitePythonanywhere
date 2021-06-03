@@ -2,8 +2,9 @@
 This website is my resume, graphically represented through hosting with github pages.
 Uses Django for the back-end and a combination of HTML5, CSS3, and JS for the front-end.
 
+
 ## Description
-This website is meant to be living proof to instatntiate the claims of my resume, displaying that I know how toi create original designs using HTML5/CSS3/JS and Bootstrap5. 
+This website is meant to be living proof to instatntiate the claims of my resume, displaying that I know how to create original designs using HTML5/CSS3/JS and Bootstrap5. 
 
 ## Usage
 You are completely free to use any of the code utilized to make this Resume Website, additionally if you like any of the phrasing I utilize, feel free to use it as inspiriation for your own resume. 
@@ -12,7 +13,7 @@ I imagine the most interst I would get from the code behind this site would be f
 
 ## Contributing/Support
 
-If you would like to create a PULL request, please feel free. Whether the intent be to pilfer from the code as you like some elements of the app, or to suggest improvements, you are most welcome to. If the changes are to be major, however, please open an issue first so we can discuss if/what you would like to change. Should you have a problem in doing so, please feel free to let me know (my email is on my website (nicolasvilleneuve.github.io/Portfolio or nicolasvilleneuve.pythonanywhere.com so please find it there in case it has changed since writing this).
+If you would like to create a PULL request, please feel free. Whether the intent be to pilfer from the code as you like some elements of the app, or to suggest improvements, you are most welcome to. If the changes are to be major, however, please open an issue first so we can discuss if/what you would like to change. Should you have a problem in doing so, please feel free to let me know (my email is on my website (https://nicolasvilleneuve.pythonanywhere.com so please find it there in case it has changed since writing this).
 
 
 ## License 

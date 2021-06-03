@@ -1,7 +1,7 @@
 ## ResumeSite
 This website is my resume, graphically represented through hosting with github pages.
 Uses Django for the back-end and a combination of HTML5, CSS3, and JS for the front-end.
-Access the web app at https://nvilleneueve.pythonanywhere.com
+Access the web app at https://nvilleneuve.pythonanywhere.com
 
 ## Description
 This website is meant to be living proof to instatntiate the claims of my resume, displaying that I know how to create original designs using HTML5/CSS3/JS and Bootstrap5. 

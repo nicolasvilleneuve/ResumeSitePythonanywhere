@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nicolas' Personal Site</title>
+    <link rel="icon" href="static/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montaga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montaga&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a06c98281f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+
+<body>
+
+<div class="top-container">
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid" id="navbar-green">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#profile">nic</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#experience">Work Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#certifications">Certifications</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <h1 class="big-heading"> I'm Nic. </h1>
+    <h2> a data scientist/programmer </h2>
+    <img src="static/images/mountains.png" alt="mountain" width="100%">
+</div>
+
+<div class="middle-container">
+    <div class="profile" id="profile">
+        <img class="profile-pic" src="static/android-chrome-192x192.png" alt="profile picture">
+        <h2>Hello.</h2>
+        <p> i am a recent MSc graduate, where i studied an emerging field of data science (metabolomics) </p>
+        <p> in the course of my studies, I found a passion for creating things with programming  </p>
+        <br>
+    </div>
+
+    <br>
+    <br>
+
+<section id="skills">
+    <div class="middle-container">
+        <h2>My Skills</h2>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <img src="static/images/python.png">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <p class="card-text">I initially learned python to make use of pandas, numpy and matplotlib to generate and harness machine learning models,
+                        process, clean, and visualize my metabolomics dataset. Along the way, I decided to devote at least an hour a day to engineering a project, for 100 days straight.
+                        As a result, I am extremely comfortable with python and object-oriented programming. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-warning">
+                    <div class="card-body">
+                        <img src="static/images/R_logo.png" alt="">
+                    </div>
+                </div>
+                <div class="card-back bg-dark text-white">
+                    <div class="card-body">
+                        <p class="card-text">R is the gold-standard programming language for academia. As such, I have been an avid user of R for 4+ years.
+                My interest in R for statistical analyses, machine learning and data visualization began whilst I was conducting my honours research thesis.
+            During the course of my MSc, I have trained and utilized machine learning models varying in complexity using datasets from Kaggle, ISLR and the UCI ML Repository (as well as my own dataset). </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-primary">
+                    <div class="card-body">
+                        <img src="static/images/SQL_logo.png" alt="">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body text-primary">
+                        <p class="card-text">I enjoy using all kinds of SQL, though postgreSQL is my favourite.
+                I have been using it for 2 years, completely out of interest in it and a yearning to be able to control/utilize relational database systems which sometimes contain millions of rows.
+                The server for my main website is completely made in python, allowing for data exploration/manipulation to be preformed with Psycopg2 (PostgreSQL module).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <img src="static/images/HTML5_logo.png" alt="">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <p class="card-text">I have worked with HTML5 for > 1 year and I utilized HTML5 to form the foundation of this and my main website.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-danger">
+                    <div class="card-body">
+                        <img src="static/images/CSS_logo.png" alt="">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <p class="card-text">I have utilized CSS3 for > 1 year. I utilized CSS3 to stylize this and my main website. This wonderful card flipping you see is all CSS3. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-success">
+                    <div class="card-body">
+                        <img src="static/images/Java_logo.png" alt="">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <p class="card-text">I have been working with java for 2 years, so as to execute scripts to apply machine learning models to my
+                        raw spectral dataset in MZMine, through a unix Biocluster. Additionally, I have utilized it to provide all of the functionality of my main website.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<br>
+<br>
+
+    <div class="education-container" id="education">
+        <h2>Education</h2>
+
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <img src="static/images/uottawa.png">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h4 class="card-title">MSc Student, Master of Chemistry</h4>
+                        <p class="card-text">Specializing in Metabolomics </p>
+                        <p class="card-text"> September 2019 - Present </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 col-md-6 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <img src="static/images/carleton.png">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body">
+                        <h4 class="card-title">Honours Bachelors of Science</h4>
+                        <p class="card-text">Major in Biology, Minor in Chemistry </p>
+                        <p class="card-text"> September 2014 - May 2019 </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+    <div class="experience-container" id="experience">
+        <h2>Work Experience</h2>
+    </div>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-md-12 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <img src="static/images/AAFCBig.png">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body flex-fill">
+                        <h4 class="card-title">Research Assistant</h4>
+                        <h5 class="card-title">September 2019 - Present </h5>
+                        <p class="card-text"><ul>
+                    <li> Conducted cutting-edge research on the forefront of an emerging field of Data Science (Metabolomics)</li>
+                    <li> Led a multi-disciplinary project using techniques of analytical chemistry, genomics, and computer science to understand the profile of metabolic features derived from previously uncharacterized fungal species </li>
+                    <li> Pre-processed big datasets (TBs in size) of raw spectral information with Java scripts through a dedicated high-performance Unix Biocluster </li>
+                    <li> Utilized R, and Python to generate and harness machine learning models to analyze, visualize and reveal hidden trends in big data </li>
+                    <li> Effectively collaborated with laboratories and professionals of diverse disciplines so as to drive maximal progression of working projects </li>
+                    <li> Published peer-reviewed literature in collaboration with researchers at AAFC/AAC and uOttawa </li>
+                </ul>
+            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-md-12 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <img src="static/images/AAFCBig.png">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body flex-fill">
+                        <h4 class="card-title">Research Affiliate Position</h4>
+                        <h5>October 2018 - Present </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li> Part-time research position working in the laboratories of AAFC/AAC </li>
+                            <li> Contributed to a project assessing the synergistic effects of several mycotoxins which pose a risk to human health, affecting crops of global economic importance </li>
+                            <li> Pre-processed big datasets (TBs in size) of raw spectral information with Java scripts through a dedicated high-performance Unix Biocluster </li>
+                            <li> Utilized R to clean, process, analyze and visualize the generated data </li>
+                            <li> Led a project with the goal of obtaining a certain natural product with a worth of $45,000 </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-md-12 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <img src="static/images/uottawaBig.png">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body flex-fill">
+                        <h4 class="card-title">Postgraduate Teaching Assistant</h4>
+                        <h5>Sept 2019 - May 2020 </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li> Served as a Lab Monitor, Demonstrator, and Corrector for several 2nd, 3rd and 4th year courses of Organic Chemistry, Biochemistry, Pathological Chemistry, and Genomics </li>
+                            <li> Communicated the complicated topics and methodology of the weekly projects to groups of students (100+ per session) </li>
+                            <li> Led large groups of students through the weekly experimentation, ensuring the labs were preformed efficiently and safely </li>
+                            <li> Managed the grading and provision of feedback for students’ submissions, mid-terms, and final examinations in a timely fashion </li>
+                            <li> Closely communicated with lab coordinators and the head of the department to improve the quality and assessment of the lab sessions and examinations </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-md-12 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <img src="static/images/HCGreen.png">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body flex-fill">
+                        <h4 class="card-title">Independent Undergraduate Research Project</h4>
+                        <h5>August 2017 - April 2018 </h5>
+                        <p class="card-text">
+                        <ul>
+                            <li> Executed a competitive independent project funded through a nation-wide program which is awarded to less than 30 people per year (NSERC CREATE-REACT) </li>
+                            <li> Performed research in the cancer research (Genetic Toxicology) laboratories </li>
+                            <li> Contributed immensely to the validation process of a cell-based assay for cancer/mutagenicity screening which would serve as a cost-effective alternative to animal testing </li>
+                            <li> Led a project to miniaturize the assay, in turn, making its scalable and applicable to screening the mutagenic potential of biopharmaceutical products </li>
+                            <li> Utilized R for generating and harnessing complex models for statistical analyses </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+<div class="experience-container" id="certifications">
+<h2>Certifications/Awards</h2>
+</div>
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-md-12 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <img src="static/images/cert.png" height="300px" width="300px">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body flex-fill">
+                        <p class="card-text">
+                        <ul>
+                            <li> Government of Canada – Reliability Status </li>
+                            <li> NSERC CREATE-REACT Research Grant </li>
+                            <li> 100 Days of Python – AppBrewery </li>
+                            <li> The Complete Data Science and Machine Learning Bootcamp – AppBrewery </li>
+                            <li> Complete Python Developer in 2021 – ZTM </li>
+                            <li> Data Science and Machine Learning Bootcamp in R – Pierian Data Inc </li>
+                            <li> Complete SQL Bootcamp 2021 - Pierian Data Inc </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<br>
+
+<h2>Publications</h2>
+
+<br>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 col-md-12 col-sm-12" style="background-color: #eeeeee;">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white bg-dark">
+                    <div class="card-body">
+                        <img src="static/images/pub.png" height="300px" width="300px">
+                    </div>
+                </div>
+                <div class="card-back bg-white">
+                    <div class="card-body flex-fill">
+                        <p class="card-text">
+                            <p> Witte, T. E., Villeneuve, N., Boddy, C. N., and Overy, D. P. (2021). Accessory Chromosome-Acquired Secondary Metabolism in Plant Pathogenic Fungi: The Evolution of Biotrophs Into Host-Specific Pathogens  . Front. Microbiol.  12, 700. Available at: https://www.frontiersin.org/article/10.3389/fmicb.2021.664276.</p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<br>
+
+
+    <div class="contact-me">
+        <br>
+        <h3>if you are looking for a passionate data scientist and/or programmer, please feel free to reach out through any of the facets below! </h3>
+        <br>
+        <a class="btn" href="mailto:nicolas.villeneuve.01@gmail.com"><button type="button" class="btn btn-dark">CONTACT ME</button></a>
+        <br>
+        <br>
+    </div>
+</div>
+
+
+<div class="bottom-container">
+    <a class="footer-link" href="www.linkedin.com/in/nicolas-villeneuve-23370b1b2"><img src="static/images/linkedin_logo.png" width="50px" height="50px"></a>
+    <a class="footer-link" href="http://nicolasvilleneuve.github.io/Portfolio"><img src="static/images/nic-image.png" width="50px" height="50px"></a>
+    <p>© 2021 Nicolas Villeneuve.</p>
+</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</html>
